@@ -1,0 +1,83 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffd0d1;
+    font-family: 'Preahvihear', sans-serif;
+}
+
+h1{
+    text-align: center;
+    color: #61C0BF;
+}
+
+h2{
+    text-align: center;
+}
+
+.player{
+    height: 275px;
+    width: 350px;
+    margin-top: 10px;
+    border: 2px solid black;
+    margin-right: 5px;
+    margin-left: 5px;
+    background-color: #FAE3D9;
+    color: #61C0BF;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.team{
+    height: 275px;
+    width: 350px;
+    margin-top: 10px;
+    border: 2px solid black;
+    margin-right: 5px;
+    margin-left: 5px;
+    background-color: #FAE3D9;
+    color: #61C0BF;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.team h2{
+    margin-bottom: 0;
+}
+
+ul{
+    padding-right: 20px;
+}
+
+.grid-container-players{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(10, 1fr);
+}
+
+.grid-container-teams{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(10, 1fr);
+}
+
+label{
+    color: darkblue;
+}
+
+input{
+    background-color: #FFB6B9;
+    color: darkblue;
+}
+
+img{
+    height: 600px;
+    width: 400px;
+    border: 3px solid black;
+    margin: 30px;
+}
